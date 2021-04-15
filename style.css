@@ -1,0 +1,109 @@
+:root {
+  --main: hsl(0, 0%, 95%);
+  --left: hsl(31, 77%, 52%);
+  --mid: hsl(184, 100%, 22%);
+  --right: hsl(179, 100%, 13%);
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  padding-top: 40px;
+  font-size: 17px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.border-r-right {
+  border-radius: 0% 3% 3% 0%;
+}
+.border-r-left {
+  border-radius: 3% 0% 0% 3%;
+}
+.carde {
+  height: 500px;
+  padding: 20px 40px;
+  /* border-radius: 5%; */
+  /* margin: 0; */
+}
+
+.nopadd {
+  padding: 0 !important;
+  /* margin: 0 !important; */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.button-left {
+  border-radius: 30px;
+  border-color: var(--left);
+  color: var(--left);
+  background-color: var(--main);
+  padding: 3% 15%;
+}
+.button-mid {
+  border-radius: 30px;
+  border-color: var(--mid);
+  color: var(--mid);
+  background-color: var(--main);
+  padding: 3% 15%;
+}
+.button-right {
+  border-radius: 30px;
+  border-color: var(--right);
+  color: var(--right);
+  background-color: var(--main);
+  padding: 3% 15%;
+}
+
+.button-left:hover {
+  border-radius: 30px;
+  border-color: var(--main);
+  color: var(--main);
+  background-color: var(--left);
+  padding: 3% 15%;
+}
+
+.button-mid:hover {
+  border-radius: 30px;
+  border-color: var(--main);
+  color: var(--main);
+  background-color: var(--mid);
+  padding: 3% 15%;
+}
+
+.button-right:hover {
+  border-radius: 30px;
+  border-color: var(--main);
+  color: var(--main);
+  background-color: var(--right);
+  padding: 3% 15%;
+}
+
+.txt-description {
+  margin: 15% 0 30%;
+  padding-right: 15%;
+}
+.icon-margin {
+  margin: 7% 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .border-r-right {
+    border-radius: 0% 0% 3% 3%;
+  }
+  .border-r-left {
+    border-radius: 3% 3% 0% 0%;
+  }
+
+  .pam {
+    padding: 7%;
+  }
+}
